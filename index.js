@@ -48,7 +48,7 @@ dec(16);
 
 // 7
 function makeInt(n, base) {
-  return parseInt(n);
+  return parseInt(n, base);
 }
 makeInt('4', 10);
 makeInt('stuff', 10);
