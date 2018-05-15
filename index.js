@@ -14,53 +14,53 @@ beforeEach(function() {
 function add(a, b) {
   return (a + b);
 }
-console.log(add(2,4));
+//console.log(add(2,4));
 
 // 2
 function subtract(a, b) {
   return (a - b);
 }
-subtract(6, 3);
+//subtract(6, 3);
 
 // 3
 function multiply(a, b) {
   return (a * b);
 }
-multiply(4, 5)
+//multiply(4, 5)
 
 // 4
 function divide(a, b) {
   return (a / b);
 }
-divide(18, 2);
+//divide(18, 2);
 
 // 5
 function inc(n) {
   return (n = n + 1);
 }
-inc(13);
+//inc(13);
 
 // 6
 function dec(n) {
    return (n = n - 1);
 }
-dec(16);
+//dec(16);
 
 // 7
 function makeInt(n, base) {
   return parseInt(n);
 }
-makeInt('4', 10);
-makeInt('stuff', 10);
-makeInt('0x2328', 10);
+//makeInt('4', 10);
+//makeInt('stuff', 10);
+//makeInt('0x2328', 10);
 
 // 8
 function preserveDecimal(n) {
   return parseFloat(n)
 }
-preserveDecimal(3.14159);
-preserveDecimal(2.222);
-preserveDecimal('stuffity');
+//preserveDecimal(3.14159);
+//preserveDecimal(2.222);
+//preserveDecimal('stuffity');
 
 
 /*
