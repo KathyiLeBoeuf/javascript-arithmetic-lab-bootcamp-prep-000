@@ -52,7 +52,7 @@ function makeInt(n, base) {
 }
 makeInt('4', 10);
 makeInt('stuff', 10);
-makeInt('0x2328');
+makeInt('0x2328', 10);
 
 // 8
 function preserveDecimal(n) {
